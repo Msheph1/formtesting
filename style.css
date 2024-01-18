@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-image: url(./images/benjamin-voros-AD6rn3vqG7o-unsplash.jpg);
+  background-size: cover;
+}
+
+.title {
+  background-color: black;
+  margin-top: 125px;
+  margin-bottom: 175px;
+  width: 100%;
+  opacity: 30%;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header,
+.footer {
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+  height: 30%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer {
+  height: 35%;
+}
+
+.body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.body p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.body {
+  display: flex;
+  height: 40%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+  margin-left: 10px;
+}
+
+input {
+  width: 20vw;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  width: 18vw;
+  height: 3vw;
+  border: none;
+  background-color: rgb(166, 215, 252);
+  border-radius: 5px;
+}
+
+.buttonarea {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 25%;
+  align-items: center;
+}
